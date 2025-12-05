@@ -25,7 +25,7 @@ export default function Portfolio() {
       <div className="w-full max-w-5xl">
         {/* 헤더 */}
         <header className="text-center mb-12">
-          <h1 className="text-5xl font-extrabold mb-3 text-gray-900">김정서 포트폴리오</h1>
+          <h1 className="text-5xl font-extrabold mb-3 text-gray-900">jeongseo's 포트폴리오</h1>
           <p className="text-gray-600 text-lg">
           </p>
             정보보호학과 24학번 | 리눅스 활용 웹서비스 프로젝트
