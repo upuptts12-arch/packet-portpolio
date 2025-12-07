@@ -11,7 +11,7 @@ const GridCard = ({ title, description, icon }: { title: string; description: st
 
 const SplitSection = ({ img, title, children }: { img: string; title: string; children: React.ReactNode }) => (
   <div className="flex flex-col md:flex-row items-center bg-white/90 backdrop-blur-md rounded-2xl shadow-lg p-6 mb-8 gap-6">
-    <img src={img} alt="" className="w-32 h-32 rounded-full object-cover" />
+    <img src={img} alt={title} className="w-32 h-32 rounded-full object-cover" />
     <div>
       <h2 className="font-extrabold text-2xl mb-2 text-gray-900">{title}</h2>
       <div className="text-gray-700 leading-relaxed">{children}</div>
